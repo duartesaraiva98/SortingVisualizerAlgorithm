@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="menu-bar" id="text">
+    <table width="90%" class="center">
+      <tr>
+        <td width="60%">
+          <h1 class="title">Welcome to a sorting visualizer!</h1>
+          <p class="subtitle">by Duarte Saraiva</p>
+        </td>
+        <td width="30%">
+          <div class="right">
+            <button class="opt_button" type="button" name="button" id="reset">new array</button>
+            <button class="opt_button" type="button" name="button" id="bubbleSort">bubble sort</button>
+            <button class="opt_button" type="button" name="button" id="mergeSort">merge sort</button>
+            <button class="opt_button" type="button" name="button" id="insertionSort">insertion sort</button>
+            <button class="opt_button" type="button" name="button" id="quickSort">quick sort</button>
+          </br>
+            <div class="slidecontainer">
+              <input type="range" min="20" max="500" value="240" class="slider" id="slideRange">
+              <p class="subtitle right"> Slide right for slower sorting speed!</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+  <div class="array-container" id="container">
+    <!--<div class="array-bar" id="0" style="height:40%"></div>
+    <div class="array-bar" id=0 style="height:30%"></div>
+    <div class="array-bar" id=0 style="height:70%"></div>-->
+  </div>
+  <script src="sortingAnimations.js" charset="utf-8"></script>
+  <script src="sortingAlgorithms.js" charset="utf-8"></script>
+  <script src="init.js" charset="utf-8"></script>
+</body>
+</html>

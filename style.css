@@ -1,0 +1,71 @@
+body {
+    padding:0;
+    margin:0;
+}
+
+.menu-bar{
+  background-color: #e7dec8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0px;
+  width: 100vw;
+}
+
+h1.title{
+  font-size: 42px;
+  font-family: "monaco","Consolas","Lucida Console",monospace;
+  color: #30475e;
+  margin-bottom: 0px;
+}
+
+p.subtitle{
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  color: #30475e;
+  margin-top: 2px;
+}
+
+.array-container{
+  height: 300px;
+  width: 72px;
+  margin: auto;
+  text-align: center;
+}
+
+.array-bar{
+  background-color: #320000;
+  width:20px;
+  float: left;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.opt_button{
+  color: #30475e;
+  background-color: Transparent;
+  border: none;
+  outline: none;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.opt_button:hover{
+  color: #cbaf87;
+}
+
+button.opt_button:disabled{
+  color: #ebebeb;
+}
+
+.right{
+  float:right;
+}
+
+.center{
+  margin:auto;
+  display:block;
+}
+
+.slider{
+  margin-top: 5px;
+  float:left;
+}
